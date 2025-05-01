@@ -1,0 +1,104 @@
+/* pagina principal */
+        body {
+            background-color: #f1f4ff;
+            font-family: Arial, sans-serif;
+            margin: 100px;
+            padding: 100px;
+            color: #2e8b57;
+            font-size: 1.0em;
+        }
+        /* titulo */
+        h1 {
+            color: #5e5b57;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        /* biografia */
+        p {
+            font-size: 2.0em;
+            text-align: justify;
+            line-height: 1,5em;
+        }
+        /* listas */
+        ul {
+            line-height: 2.0;
+            font-size: 2.0em;
+            text-align: center;
+        }
+            /* hobbie */
+        img {
+            border-radius: 30px;
+            width: 1200px;
+            display: block;
+            margin: 70px auto;
+            border: 15px solid #ddd;
+        }
+            /* tabela hobbie */
+        table {
+            font-size: 2.0em;
+            width: 80%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            table-layout: fixed;
+        }
+
+        th, td {
+            padding: 5px;
+            text-align: center;
+            border-bottom: 10px solid #ddd;
+        }
+
+        th {
+            background-color: #2e8b57;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #e6f7e0;
+        }
+    /*  tabela paises */
+        table img {
+            width: 100px;
+            height: auto;
+            border-radius: 5px;
+            display: block;
+            margin: 0 auto;
+        }
+            /* site da faculdade */
+        a {
+            color: #2e8b57;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+            font-size: 2.0em;
+            display: block;
+            margin: 20px 0;
+            transition: color 0.3s;
+        }
+        
+        a:hover {  	    
+            color: #1e3c4a;
+            text-decoration: underline;
+        }
+            /* ativar js */
+        .buttonClick, #mensagem {
+            background-color: #2e8b57;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.5em;
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: fit-content;
+        }
+    
